@@ -17,8 +17,7 @@
       To give a chance to fix some problems on RESTful-API client.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387649550288" ID="ID_300203810" MODIFIED="1387649561210" TEXT="Different strategies">
 <node CREATED="1387649566073" ID="ID_591778198" MODIFIED="1387649619508" TEXT="Return of 500 with raw stack trace is euqal to no strategy">
@@ -37,8 +36,7 @@
       Try to map them as clearly as possible to reflect in them the current situation. Be verbose as much as this is possible, if you decided to return some message try to put there message in context of the business reason, and hide technical details.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -55,8 +53,7 @@
       But If we assume that the api is kind of the tool given to other engineer, so well designed api is a tool which allows him to fast achieve his goals, and learning curve about this api is enough rapid and he is able penetrate the abilities of API, more with his intuition than by browsing documentation.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387650623009" ID="ID_753141478" MODIFIED="1387746860954" POSITION="right" STYLE="bubble" TEXT="Versioning">
 <cloud/>
@@ -70,8 +67,7 @@
       Try to enforce the users to specify&#160;&#160;the version. Make it mandatory?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387650731672" ID="ID_1400236657" MODIFIED="1387658579876" TEXT="Strategies">
 <node CREATED="1387650739205" ID="ID_1105089309" MODIFIED="1387658579876">
@@ -99,8 +95,7 @@
       First look at such url, doesn't bring an intention to the front, it requires refer to the API, to understand, hidden behind the date, concept of versioning the API. User don't know is it a date of compilation of his code, or this is a date of vendor API release.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387650918703" ID="ID_238735047" MODIFIED="1387658579882">
 <richcontent TYPE="NODE"><html>
@@ -124,8 +119,7 @@
       The things which are not good in this solution is, that API is something which should change slowly, business logic behind this API can evolve rapidly and change fast. If you are going to often release the api like 20.0.1....20.0.2-raciboro-snapshot and so on the api will be exposed to quite often changes, and can be frustrating for end user.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387650991520" ID="ID_1156304675" MODIFIED="1387658579886">
 <richcontent TYPE="NODE"><html>
@@ -158,8 +152,7 @@
       This is a pitfall of having the version of your api optional.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387652369267" ID="ID_937104502" MODIFIED="1387658579892">
 <richcontent TYPE="NODE"><html>
@@ -180,8 +173,7 @@
       it will also make this part mandatory.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387652571253" ID="ID_184643003" MODIFIED="1387658579896">
 <richcontent TYPE="NODE"><html>
@@ -193,8 +185,7 @@
       You can also use the headers to keep such information? Need to more elaborated, looks like interesting idea
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387747464380" HGAP="16" ID="ID_988851858" MODIFIED="1387747574250" VSHIFT="-74">
 <richcontent TYPE="NODE"><html>
@@ -206,8 +197,7 @@
       <font color="#3300cc" size="6">Don't break an existing clients!!!!</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="messagebox_warning"/>
@@ -239,8 +229,7 @@
       In such versioning the API caching in the middle between server and client will be also less effective.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387747631067" ID="ID_476153136" MODIFIED="1387747735408">
 <richcontent TYPE="NODE"><html>
@@ -252,8 +241,7 @@
       Be careful, even bugfixes can affect an existing functionality in the client codes, because natural way of handling the problems is to look for some workarounds.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387747835771" ID="ID_525794484" MODIFIED="1387747838286" TEXT="API versioning absolutely cannot be tied to software versioning in any way"/>
 <node CREATED="1387748242956" ID="ID_225747042" MODIFIED="1387748306361">
@@ -266,8 +254,7 @@
       To track concrete version of the API that was invoked HTTP gives possibility to provide product tokens where exact version of API can be provided.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1387654913259" ID="ID_1168170527" MODIFIED="1387657497095" POSITION="left">
@@ -280,8 +267,7 @@
       pagination
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud/>
 <node CREATED="1387655326316" ID="ID_811517998" MODIFIED="1387657485731">
 <richcontent TYPE="NODE"><html>
@@ -299,8 +285,7 @@
       limit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387655397762" ID="ID_1871228784" MODIFIED="1387657485731">
 <richcontent TYPE="NODE"><html>
@@ -318,8 +303,7 @@
       rpp(records per page)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387655556385" ID="ID_944344827" MODIFIED="1387657485732">
 <richcontent TYPE="NODE"><html>
@@ -337,8 +321,7 @@
       count
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387655650865" ID="ID_1184306954" MODIFIED="1387657485732">
 <richcontent TYPE="NODE"><html>
@@ -356,30 +339,29 @@
       terms 'limit' and 'offset' are clear and intuitional for developers that will be consuming your API.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1387656279284" ID="ID_231622794" MODIFIED="1387656650144" POSITION="right">
+<node CREATED="1387656279284" ID="ID_231622794" MODIFIED="1387962094812" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Non resourcefull stuff:
+      <font color="#009999">Non resourcefull stuff: </font>
     </p>
     <p>
-      Sometimes there is a need to expose the action,which is hard to map to resource(calculate, translate, convert). Like propose, in proposal service. No resource involved, some calculation( action)
+      <font color="#009999">Sometimes there is a need to expose the action,which is hard to map to resource(calculate, translate, convert). Like propose, in proposal service. No resource involved, some calculation( action) </font>
     </p>
     <p>
-      /propose?evidence_id=1234&amp;snapp_limit=2m
+      <font color="#009999">/propose?evidence_id=1234&amp;snapp_limit=2m </font>
     </p>
     <p>
       
     </p>
     <p>
-      use verbs when it is about some algorithmics than resource, it will be more natural than using some artificial, non natural mapping to resource.
+      <font color="#009999">use verbs when it is about some algorithmics than resource, it will be more natural than using some artificial, non natural mapping to resource.</font>
     </p>
   </body>
 </html>
@@ -415,8 +397,7 @@
       to be more precise, you can move the http error code to the body
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1387657507894" ID="ID_1094610723" MODIFIED="1387657878573">
 <richcontent TYPE="NODE"><html>
@@ -452,18 +433,17 @@
       /dogs/1234?method=delete
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1387658070852" ID="ID_1921075719" MODIFIED="1387658323063" POSITION="right">
+<node CREATED="1387658070852" ID="ID_1921075719" MODIFIED="1387962135938" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Start and try to see the resources that you want to&#160;&#160;provide to the client, and map them, and the relations in the urls, that will be the best descriptive, as possible. If you do this, and you know that in this domain you will be always operate on some compositions, and some detailed granularization is not needed, do the shortcuts. Don start to think in the context of java api, but in the context of the resources, that you are going to expose to the client, and how resources will be expressed in the requests
+      <font color="#990099">Start and try to see the resources that you want to&#160;&#160;provide to the client, and map them, and the relations in the urls, that will be the best descriptive, as possible. If you do this, and you know that in this domain you will be always operate on some compositions, and some detailed granularization is not needed, do the shortcuts. Don start to think in the context of java api, but in the context of the resources, that you are going to expose to the client, and how resources will be expressed in the requests</font>
     </p>
     <p>
       
