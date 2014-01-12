@@ -183,14 +183,49 @@
       Scalability , but no in term of performance, but dissemination, the ability to adopt and grow and interact with large number of users
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1388958563277" ID="ID_1874137168" MODIFIED="1389534837111">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Generality, when you have generic concept involved like HTTP, generic application protocol, that everyone can use regardless the underlying technology, or network technology and because of this it can be widely adopted
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1388958563277" ID="ID_1874137168" MODIFIED="1388958568144" TEXT="Generality"/>
-<node CREATED="1388958569445" ID="ID_1507156144" MODIFIED="1388958575150" TEXT="Independent"/>
+<node CREATED="1388958569445" ID="ID_1507156144" MODIFIED="1389534952724">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Independent, because of RESTful solutions, are made od independent modules, which are independent, and alow you for example deploy some part of the system without shutting dow the system
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1388958576531" ID="ID_1385802903" MODIFIED="1388958586862" TEXT="Latency(Caching)"/>
 <node CREATED="1388958590251" ID="ID_767703535" MODIFIED="1388958594375" TEXT="Security"/>
-<node CREATED="1388958595587" ID="ID_1375153285" MODIFIED="1388958603726" TEXT="Encapsulation"/>
+<node CREATED="1388958595587" ID="ID_1375153285" MODIFIED="1389534972620">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Encapsulation, easy way to expose to the client what you really want
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1389385084996" ID="ID_457830674" MODIFIED="1389385243842" POSITION="right" TEXT="Roy Fielding">
 <node CREATED="1389385243843" ID="ID_900264087" MODIFIED="1389385255426" TEXT="Author of the concept of REST">
@@ -207,8 +242,7 @@
       &#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1389385317448" ID="ID_881073280" MODIFIED="1389385432609">
 <richcontent TYPE="NODE"><html>
@@ -220,8 +254,7 @@
       Main concepts of REST were&#160;drivers during specifying HTTP 1.1, for delivering mechanisms that will allow leverage power of the WEB
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -243,8 +276,7 @@
       It is equal to read, should be used to pool particular resource
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1389392599711" ID="ID_536549839" MODIFIED="1389392602785" TEXT="POST">
@@ -279,8 +311,7 @@
       Response 200
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1389395955446" ID="ID_1561454577" MODIFIED="1389396329293">
 <richcontent TYPE="NODE"><html>
@@ -366,8 +397,7 @@
       POST is IDEMPOTENT!!!!. It means that you need to supply full data of the resource, under specified id (Can't be partial).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1389395599238" ID="ID_1231104893" MODIFIED="1389395817892">
 <richcontent TYPE="NODE"><html>
@@ -403,8 +433,7 @@
       Because of the fact that POST is idempotent , even if you update the only one property, need to specify the full resource. Partial updates are not allowed
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1389392608031" ID="ID_992378461" MODIFIED="1389392611353" TEXT="DELETE">
@@ -424,8 +453,7 @@
       GET,POST,UPDATE,DELETE != 1:1 CRUD(Create, Read, Update, Delete) according to HTTP specification
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
