@@ -195,17 +195,16 @@
       Generality, when you have generic concept involved like HTTP, generic application protocol, that everyone can use regardless the underlying technology, or network technology and because of this it can be widely adopted
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1388958569445" ID="ID_1507156144" MODIFIED="1389534952724">
+<node CREATED="1388958569445" ID="ID_1507156144" MODIFIED="1389902975655">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Independent, because of RESTful solutions, are made od independent modules, which are independent, and alow you for example deploy some part of the system without shutting dow the system
+      Independent, because of RESTful solutions, are made od independent modules, what alow you for example deploy some part of the system without shutting dow the system
     </p>
   </body>
 </html>
@@ -223,8 +222,7 @@
       Encapsulation, easy way to expose to the client what you really want
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1389385084996" ID="ID_457830674" MODIFIED="1389385243842" POSITION="right" TEXT="Roy Fielding">
